@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ranjeetyadav7348.github.io/FnAxiom_Project/",
+  
   "name": "websitenavbar",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +21,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider nuxt"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
