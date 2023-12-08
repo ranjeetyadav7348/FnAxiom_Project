@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FnAxiom_Project/static/css/main.7d5a886c.chunk.css",
+    "main.js": "/FnAxiom_Project/static/js/main.74092220.chunk.js",
+    "main.js.map": "/FnAxiom_Project/static/js/main.74092220.chunk.js.map",
+    "runtime-main.js": "/FnAxiom_Project/static/js/runtime-main.a2653554.js",
+    "runtime-main.js.map": "/FnAxiom_Project/static/js/runtime-main.a2653554.js.map",
+    "static/js/2.44d7b0e9.chunk.js": "/FnAxiom_Project/static/js/2.44d7b0e9.chunk.js",
+    "static/js/2.44d7b0e9.chunk.js.map": "/FnAxiom_Project/static/js/2.44d7b0e9.chunk.js.map",
+    "static/js/3.57682ee5.chunk.js": "/FnAxiom_Project/static/js/3.57682ee5.chunk.js",
+    "static/js/3.57682ee5.chunk.js.map": "/FnAxiom_Project/static/js/3.57682ee5.chunk.js.map",
+    "index.html": "/FnAxiom_Project/index.html",
+    "static/css/main.7d5a886c.chunk.css.map": "/FnAxiom_Project/static/css/main.7d5a886c.chunk.css.map",
+    "static/js/2.44d7b0e9.chunk.js.LICENSE.txt": "/FnAxiom_Project/static/js/2.44d7b0e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2653554.js",
+    "static/js/2.44d7b0e9.chunk.js",
+    "static/css/main.7d5a886c.chunk.css",
+    "static/js/main.74092220.chunk.js"
+  ]
+}
