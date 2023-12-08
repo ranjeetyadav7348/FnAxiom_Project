@@ -1,4 +1,5 @@
 {
+  
   "name": "websitenavbar",
   "version": "0.1.0",
   "private": true,
@@ -11,14 +12,17 @@
     "react-icons": "^4.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider nuxt"
   },
   "eslintConfig": {
     "extends": [
