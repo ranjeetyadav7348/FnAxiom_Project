@@ -42,7 +42,7 @@ li {
   font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  background: -webkit-linear-gradient(#eee, rgb(61, 166, 172));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -117,23 +117,39 @@ li {
 /* hero section   */
 
 .hero-section {
-  height: 80vh;
+  background-image: url(./images/value.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  
+  
+  /* justify-content: center;
+  align-items: center; */
+  
+ 
+  
 }
+.hero-section h1 {
+  align-self:unset;
+   color: #090808;
+   font-size: 5rem;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: -35% !important;
+   text-shadow: 2px 6px 20px #83c05b;
+ }
 
 .hero-section p {
+  color: #0e0d0d;
   font-size: 3rem;
   text-transform: capitalize;
+  
+  text-shadow: 2px 4px 10px #83c05b;
 }
 
-.hero-section h1 {
-  font-size: 5rem;
-  text-transform: uppercase;
-  text-align: center;
-}
+
 
 /* responsive css style  */
 @media (max-width: 1080px) {
@@ -298,7 +314,7 @@ li {
  
   background-color: #04AA6D !important; /* Green */
   border: none;
-  color: white;
+  color: rgb(16, 10, 10);
   padding: 2px 3px;
   text-align: center;
   text-decoration: none;

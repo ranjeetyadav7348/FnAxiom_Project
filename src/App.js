@@ -8,11 +8,14 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <section className="hero-section">
-        
-        <h1>FnAxiom Home Page</h1>
+      <div className="hero-section">
+      
+      <h1>FnAxiom Home Page</h1>
         <p>Path to financially independent</p>
-      </section>
+       
+      
+       
+      </div>
 
     
   <div className="row" style={{  display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridGap: 20 , }}>
@@ -52,7 +55,7 @@ const About = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
+      
         <h1>FnAxiom About Page</h1>
       </section>
     </>
@@ -64,7 +67,7 @@ const Service = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
+      
         <h1>FnAxiom Service Page</h1>
       </section>
     </>
@@ -76,7 +79,7 @@ const Contact = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
+     
         <h1>FnAxiom Contact Page</h1>
       </section>
     </>
